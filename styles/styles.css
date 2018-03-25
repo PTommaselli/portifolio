@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0 auto; 
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+#logo_principal{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background: #070707;
+    align-items: center;
+}
+
+#name-logo{ 
+    color: white;
+}
+
+#menuIcon{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 0; 
+}
+
+.aNav{
+    text-decoration: none;
+}
+
+#navBar{
+    display: none;
+    flex-direction: column;
+    background: #353535;
+}
+
+
+.navItens{
+    list-style: none;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#breveIntroducao{
+    display: flex;
+    flex-direction: column;
+}
+
+#tituloIntro{
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+#txtBreveDesc{
+    text-align: center;
+    width: 80%;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+#tecEstudadosLeft{
+    height: 400px;
+    background: rgb(26, 26, 26);
+}
+
+#corpoEsts{
+    position: relative;
+    top: 30px
+}
+
+#titleEstudos{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin-bottom: 8px;
+}
+
+#subTitleEstudos{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+#listaTecnologiasIcons{
+    width: 60%;
+    display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+    justify-content: center;
+    margin-top: 30px; 
+}
+
+.imgTecnologia{
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+#mdlIcon{
+    width: 50px;
+}
+
+#materializeIcon{
+    width: 50px;
+}
+
+#mysqlIcon{
+    width: 50px;
+}
+
+#jsIcon{
+    width: 35px;
+}
+
+#firebaseIcon{
+    width: 30px;
+}
+
+#googleDevIcon{
+    width: 45px;
+}
+
+#phpIcon{
+    width: 70px;
+}
+
+#polymerIcon{
+    width: 60px;
+}
+
+#tsIcon{
+    width: 50px;
+}
+
+#vueIcon{
+    width: 45px;
+}
+
+#webfundIcon{
+    width: 45px;
+}
+
+#angularIcon{
+    width: 45px;
+}
+
+#cssIcon{
+    width: 45px;
+}
+
+#htmlIcon{
+    width: 45px;
+}
+
+#nodeIcon{
+    width: 45px;
+}
+
+#gitIcon{
+    none;
+        align-items: none;width: 45px;
+}
+
+#npmIcon{
+    width: 45px;
+}
+
+#infoMeRight{
+    background: #E53935;
+    height: 400px;
+}
+
+#corpoSobre{
+    position: relative;
+    top: 30px;
+}
+
+#titleSobre{
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+}
+
+#descSobre{
+    font-size: 20px;
+    text-align: justify;
+    width: 80%;
+}
+
+@media screen and (min-width: 600px){
+    #menuIcon{
+        display: none;
+    }
+
+    #navBar{
+        display: flex;
+        background: none;
+        color: black;
+    }
+
+    
+}
